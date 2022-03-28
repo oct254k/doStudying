@@ -1,0 +1,46 @@
+keypair 푸티설정에 필요함
+
+
+인스턴스를 설치 
+
+인스턴스 연결
+-sudo -s 권한 받아오기
+-yum install httpd -y
+-start httpd.service
+- ip로 접속 ( 해당화면에 있음)
+테스트 페이지 만들기
+- nano /var/www/html/index.html
+hello world
+ ctrl x
+ y
+enter
+만들어짐
+
+인스턴스로 돌아가자
+인스턴스 중지!!! 중요합니다.
+
+--
+수익모델
+-ondemand 
+ 시간 ,초당
+ 약정은 필요없음
+예약 인스턴스
+- 수요예측이 확실하고 년단위로 계약
+
+- 스팟 인스턴스
+ 경매형식으로 사용함. (언제 뺒길지 모름)
+ 시작종료가 자유로움
+- 전용호스트
+ 물리적 서버 임대
+ 라이센스 이슈
+ 퍼포먼스 인스턴스
+
+ 
+
+
+
+
+ stop httpd.service [멈춰]
+restart httpd.service [다시 일해]
+start httpd.service [일 시작해]
+
