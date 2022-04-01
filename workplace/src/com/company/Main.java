@@ -33,7 +33,6 @@ public class Main {
             }
             if( num ==1){
                 returnVal = i;
-
                 i = 503;
             }
             System.out.println(" Now Num :::"+num );
