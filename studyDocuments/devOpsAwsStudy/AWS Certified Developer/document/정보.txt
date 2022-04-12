@@ -1,0 +1,8 @@
+계정 ID
+
+922030540057
+계정 별칭
+aws-first-hyun-lecture 편집|삭제
+이 계정의 IAM 사용자를 위한 로그인 URL
+
+https://aws-first-hyun-lecture.signin.aws.amazon.com/console
